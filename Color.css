@@ -1,5 +1,7 @@
 @charset "UFT-8";
 
+
+/*Menu*/
 body{margin: 0;}
 
 
@@ -22,3 +24,31 @@ li{ cursor:pointer;
 
 li:hover{
     color: white;}
+
+/*Hero top*/
+
+
+.hero-top{
+    padding-left: 50px;
+    padding-top: 50px;
+    height: 400px;
+    width: auto;
+    display: flex;
+    background: linear-gradient( white ,rgba(255, 255, 0, 0.699));}
+
+.inf-hero-top{
+    
+}
+
+.inf-hero-top h1{color: rgb(61, 61, 61) ;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+}
+
+.inf-hero-top p{
+    font-size: large;
+    display: inline-block;
+    padding: 15px;
+    background-color: yellow;
+    font-family: Arial, Helvetica, sans-serif;
+}
