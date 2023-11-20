@@ -40,15 +40,20 @@ li:hover{
     
 }
 
-.inf-hero-top h1{color: rgb(61, 61, 61) ;
+.inf-hero-top h1{
+    letter-spacing: 2px;
+    color: rgb(61, 61, 61);
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 50px;
+    font-size: 45px;
 }
 
 .inf-hero-top p{
+    cursor:pointer;
     font-size: large;
     display: inline-block;
     padding: 15px;
     background-color: yellow;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+/*asade-top*/
